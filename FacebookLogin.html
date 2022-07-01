@@ -21,11 +21,91 @@
             color: black;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 24px;
+            font-weight: 200;
             line-height: 28px;
             width: auto;
             position: absolute;
             top: 46%;
             left: 10%;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: inherit;
+            position: absolute;
+            top: 78%;
+            left: 50%;
+            
+        }
+        a{
+            color: #1877f2;
+            font-family: inherit;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            position: absolute;
+            top: 60%;
+            left: 60%;
+
+        }
+        .Input1{
+            font-family: inherit;
+            font-size: 17px;
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            border: none;
+            border-radius: 6px;
+            line-height: 48px;
+            padding: 0 16px;
+            width: 332px;     
+            border: 1px solid #dddfe2;
+
+        }
+        .Input2{
+            font-family: inherit;
+            font-size: 17px;
+            position: absolute;
+            top:40%;
+            left: 50%;
+            border: none;
+            border-radius: 6px;
+            line-height: 48px;
+            padding: 0 16px;
+            width: 332px;
+            border: 1px solid #dddfe2;
+        }
+        .Input3{
+            background-color: #1877f2;
+            font-family: inherit;
+            font-size: 17px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            border: none;
+            border-radius: 6px;
+            font-size: 20px;
+            line-height: 48px;
+            padding: 0 16px;
+            width: 367px;
+        }
+        .Input4{
+            background-color: #42b72a;
+            color: #FFFFFF;
+            font-family: inherit;
+            border-radius: 6px;
+            border: none;
+            font-size: 17px;
+            line-height: 48px;
+            padding: 0 16px;
+            cursor: pointer;
+            display: inline-block;
+            width: 200px;
+            position: absolute;
+            top: 67%;
+            left: 56%;
+
         }
 
 
@@ -38,9 +118,17 @@
         O Facebook ajuda você a se conectar e <br> compartilhar com as pessoas que<br> fazem parte da sua vida.
     </h1>
     <p>
-        Criar uma Página para uma celebridade, uma marca ou uma empresa.
+        Criar uma Página para uma celebridade, uma marca ou uma <br> empresa.
     </p>
-    <input type="text"
+    <a href="">Esqueceu a Senha?</a>
+
+
+    <input class="Input1" type="text" id="TxtEmail" name="Email" title="Email" placeholder="Email ou Nome">
+    <input class="Input2" type="text" id="TxtSenha" name="Senha" title="Senha" placeholder="Senha">
+    <input class="Input3" type="button" id="BtnLogin" name="Login" title="Login" placeholder="Entrar">
+    <input class="Input4" type="button" id="BtnCriarConta" name="Criar" title="Criar" placeholder="Criar Nova Conta"
+
+   
    
 
 </body>
